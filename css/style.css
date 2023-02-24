@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0; /* сброс отступов*/
+}
+html{
+    box-sizing: border-box; /*исправление отступов padding. Отступы будут без изменения размера блока*/
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
